@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carpet Cleaning in Rochester NY | Best Carpet Cleaner Rochester NY</title>
+    <link rel="icon" type="favicon"
+        href="https://mightymacrochester.com/wp-content/uploads/2023/02/cropped-Mighty-Mac-_7-1-300x300.png?crop=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="description"
+        content="Need a carpet cleaner in Rochester, NY? Choose Mighty Mac for expert carpet cleaning services that will make your carpets look like new.">
+    <style>
+        /* Base styles */
+        html,
+        body {
+            background-color: #FFFFFF;
+            transition: all 0.3s;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+            text-align: justify;
+            /* Add this line to justify the text */
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #38761D;
+            color: white;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 999;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            max-height: 40px;
+            margin-right: 10px;
+        }
+
+        .website-name {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav-links li {
+            margin-left: 20px;
+        }
+
+        nav a {
+            color: inherit;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #7096c5;
+        }
+
+        /* Mobile Menu Styles */
+        .mobile-menu-icon {
+            display: none;
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            right: 0;
+            top: 100%;
+            background-color: #38761D;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #38761D;
+        }
+
+        /* Hero Section Styles */
+        .hero {
+            margin-top: 70px;
+            position: relative;
+            background-image: url('https://lh3.googleusercontent.com/p/AF1QipPyBcUNH6uTqH6uw-pEwSVYKFibMakgLTPEW0W3=s1360-w1360-h1020');
+            background-size: cover;
+            background-position: center top;
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-align: center;
+            padding: 0 20px;
+        }
+
+        .hero::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.4);
+            z-index: 1;
+        }
+
+        .hero h1,
+        .hero button {
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .hero button {
+            background-color: #7A841E;
+            color: #fff;
+            border: none;
+            padding: 12px 24px;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* Hero Section Styles */
+        @media screen and (max-width: 768px) {
+            .hero {
+                margin-top: 70px;
+                /* Adjust if necessary */
+            }
+        }
+
+        /* Main Content Styles */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .image-container {
+            flex: 0 0 30%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .content-wrapper {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .content {
+            flex: 0 0 65%;
+        }
+
+        /* Google Maps Styles */
+        .google-maps-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .google-maps {
+            flex: 1;
+            max-width: 400px;
+            height: 300px;
+            margin: 0 auto;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .section h2 {
+            color: #333;
+            font-size: 26px;
+        }
+
+        .section h3 {
+            color: #333;
+        }
+
+        .line {
+            width: 100%;
+            height: 1px;
+            background-color: #ccc;
+            margin: 20px 0;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #38761D;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .footerContainer {
+            width: 100%;
+            padding: 70px 30px 20px;
+        }
+
+        .socialIcons {
+            display: flex;
+            justify-content: center;
+        }
+
+        .socialIcons a {
+            text-decoration: none;
+            padding: 10px;
+            background-color: white;
+            margin: 10px;
+            border-radius: 50%;
+        }
+
+        .socialIcons a i {
+            font-size: 2em;
+            color: black;
+            opacity: 0.9;
+        }
+
+        .socialIcons a:hover {
+            background-color: rgba(51, 51, 51, 0.966);
+            transition: 0.5s;
+        }
+
+        .socialIcons a:hover i {
+            color: white;
+            transition: 0.5s;
+        }
+
+        .find-us-online h2 {
+            margin-bottom: 20px;
+        }
+
+        .online-links {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+
+        }
+
+        .online-links li {
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .online-links a {
+            color: #007bff;
+            text-decoration: none;
+            word-break: break-all;
+        }
+
+        .online-links a:hover {
+            text-decoration: underline;
+        }
+
+        @media screen and (max-width: 768px) {
+            .find-us-online h2 {
+                font-size: 24px;
+            }
+
+            .online-links {
+                align-items: flex-start;
+            }
+
+            .online-links li {
+                text-align: left;
+            }
+        }
+
+        /* Responsive Styles */
+        @media screen and (max-width: 768px) {
+
+
+            .content-wrapper {
+                flex-direction: column;
+            }
+
+            .nav-links {
+                display: none;
+            }
+
+            .mobile-menu-icon {
+                display: block;
+            }
+
+            .dropdown-content.show {
+                display: block;
+            }
+
+            .content,
+            .image-container {
+                flex: 0 0 100%;
+            }
+
+            .image-container {
+                margin-top: 20px;
+            }
+
+        }
+
+        @media screen and (max-width: 480px) {
+            .hero h1 {
+                font-size: 28px;
+            }
+
+            body {
+                font-size: 14px;
+            }
+
+            h2 {
+                font-size: 22px;
+            }
+
+            h3 {
+                font-size: 18px;
+            }
+
+            .website-name {
+                font-size: 15px;
+                text-align: left;
+            }
+
+            @media screen and (max-width: 768px) {
+
+                .content,
+                .image-container {
+                    flex: 0 0 100%;
+                }
+
+                .image-container {
+                    margin-top: 20px;
+                    display: flex;
+                    justify-content: center;
+                    /* Center the image horizontally */
+                }
+
+                .image-container img {
+                    width: 60%;
+                    /* Adjust the percentage to control the image size */
+                    height: auto;
+                    /* Maintain the aspect ratio */
+                    max-width: 350px;
+                    /* Optional: set a max-width to limit the size */
+                }
+            }
+
+            .online-links {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .online-links li {
+                margin-bottom: 10px;
+                text-align: center;
+            }
+
+            .online-links a {
+                color: #007bff;
+                text-decoration: none;
+                word-break: break-all;
+            }
+        }
+
+        .google-drawing iframe,
+        .google-docs iframe,
+        .google-slides iframe,
+        .google-calendar iframe {
+            width: 100%;
+            height: 600px;
+            /* Adjust as needed for desktop */
+        }
+
+        body {
+            overflow-x: hidden;
+        }
+
+        @media screen and (max-width: 768px) {
+            .container {
+                padding: 20px 10px;
+                width: 100%;
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+
+            .google-drawing iframe,
+            .google-docs iframe,
+            .google-slides iframe,
+            .google-calendar iframe {
+                width: 100%;
+                height: 300px;
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            .image-container img {
+                max-width: 100%;
+                height: auto;
+            }
+        }
+
+        .youtube-link {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .youtube-link iframe {
+            display: block;
+            margin: 0 auto;
+            width: 80%;
+            /* Adjust width for desktop */
+            max-width: 800px;
+            /* Set a maximum width for larger screens */
+        }
+
+        /* Override for mobile devices */
+        @media screen and (max-width: 768px) {
+            .youtube-link iframe {
+                width: 100%;
+                /* Full width for mobile */
+                max-width: none;
+                /* Remove max-width restriction */
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header id="header">
+        <div class="logo-container">
+            <div class="logo">
+                <img src="https://mightymacrochester.com/wp-content/uploads/brizy/imgs/Mighty-Mac-_7-344x246x0x47x344x151x1714596812.png"
+                    alt="Mighty Mac Carpet Cleaning & Restoration">
+            </div>
+            <div class="website-name">Mighty Mac Carpet Cleaning & Restoration</div>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+            <div class="mobile-menu-icon">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="dropdown-content">
+                <a href="index.html">Home</a>
+                <a href="About.html">About Us</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+        </nav>
+    </header>
+    <div class="hero">
+        <h1>Mighty Mac Carpet Cleaning & Restoration</h1>
+        <a href="tel:+15855145150"><button>Call Now</button></a>
+    </div>
+
+    <section id="home">
+        <div class="container">
+            <div class="section">
+                <h2 style="color: #38761D; font-size: 26px;">Rochester's Premier Carpet Cleaning Service</h2> <br>
+                <p>When it comes to exceptional carpet cleaning services in Rochester, NY, Mighty Mac Carpet Cleaning &
+                    Restoration stands out as the preferred choice. As a locally owned and operated business, we are
+                    committed to delivering reliable and expert carpet cleaning solutions. Our skilled team utilizes the
+                    latest techniques to effectively remove stubborn dirt, grime, stains, and odors, all while using
+                    eco-friendly products that are safe for both children and pets.</p>
+                <p> We provide a comprehensive range of services, including thorough multi-step carpet cleaning,
+                    upholstery cleaning, and tile cleaning, all customized to meet your specific needs and budget. By
+                    choosing Mighty Mac, you’re opting for a cleaning service that values and respects your home or
+                    workplace. Experience the difference with our outstanding services of <a
+                        href="https://mightymacrochester.com/" style="text-decoration: none; color: #7096c5;">carpet
+                        cleaning Rochester NY</a>,
+                    today!</p>
+                <div class="line"></div>
+            </div>
+
+
+            <div class="section">
+                <div class="content-wrapper">
+                    <div class="content">
+                        <h2 style="color: #38761D; font-size: 26px;">Highly-Rated Carpet Cleaning Services in Rochester,
+                            NY</h2> <br>
+                        <p>Mighty Mac Carpet Cleaning & Restoration offers expert and affordable carpet cleaning
+                            services across Rochester and surrounding areas. As a leading <a
+                                href="https://www.google.com/maps?cid=8514735363211763200"
+                                style="text-decoration: none; color: #7096c5;">carpet cleaner Rochester NY</a>.
+                            we use advanced equipment and proven techniques to deliver outstanding results every
+                            time. Our thorough 10-step cleaning process ensures a deep and comprehensive clean for your
+                            carpets. Contact us today to experience the best carpet cleaner Rochester, NY has to offer.
+                        </p> We proudly serve both
+                        residential and commercial clients with our competitively priced carpet cleaning services.<br>
+                        <br> <b>Residential Carpet Cleaning</b><br>
+                        <p>Maintaining a clean and healthy home is essential. Dirty carpets can harbor harmful bacteria
+                            and allergens, making regular cleaning a necessity. Our residential carpet cleaning services
+                            in Rochester, NY, are designed to remove dirt, stains, and allergens, leaving your carpets
+                            revitalized and fresh. We use safe, child- and pet-friendly cleaning solutions, along with
+                            advanced steam and dry cleaning methods.</p> <br> <b>Commercial Carpet Cleaning</b><br>
+                        <p>A spotless commercial space leaves a lasting impression on clients and customers. Our
+                            commercial carpet cleaning services in Rochester, NY, ensure your business looks immaculate
+                            and inviting. We are dedicated to delivering exceptional results that go beyond your
+                            expectations.</p>
+                    </div>
+                    <div class="image-container">
+                        <img src="https://lh3.googleusercontent.com/p/AF1QipOrO52i6dmpz2YB26M1XnnkDYyUnDVxSUAfadi6=s1360-w1360-h1020"
+                            alt="Carpet cleaning">
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="section">
+                <h2 style="color: #38761D; font-size: 26px;">Other Expert Cleaning Services We Offer</h2> <br>
+                <div class="section">
+                    <h3>Tile and Grout Cleaning in Rochester, NY</h3> <br>
+                    <div class="content-wrapper">
+                        <div class="content">
+                            <p>Mighty Mac Carpet Cleaning & Restoration provides exceptional tile and grout cleaning
+                                services in Rochester, NY. Our skilled technicians use advanced, eco-friendly methods to
+                                restore the original shine of your tiles. We thoroughly clean grout lines, removing
+                                built-up dirt and grime, to give your floors a fresh, like-new appearance. This service
+                                enhances the look and durability of your tiles, whether in the kitchen, bathroom, or
+                                other areas. Experience the outstanding results of our professional tile and grout
+                                cleaning.</p>
+                        </div>
+                        <div class="image-container"> <img
+                                src="https://lh3.googleusercontent.com/p/AF1QipPxNJs_lrZiJOpBPfOyc15-PM3JVXqY7dX_EuKc=s1360-w1360-h1020"
+                                alt="Tile and Grout Cleaning"> </div>
+                    </div>
+                </div>
+                <div class="section">
+                    <h3>Upholstery Cleaning in Rochester, NY</h3> <br>
+                    <div class="content-wrapper">
+                        <div class="content">
+                            <p>At Mighty Mac Carpet Cleaning & Restoration, we offer top-notch upholstery cleaning
+                                services in Rochester, NY. Our eco-friendly techniques effectively clean, deodorize, and
+                                sanitize your furniture, removing stains, dirt, and allergens. We understand the value
+                                of your upholstery, so we use non-toxic solutions to rejuvenate your furniture and
+                                enhance its comfort and appearance. Whether it's a sofa, chairs, or any other
+                                upholstered item, trust us to restore its beauty and improve your indoor air quality.
+                            </p>
+                        </div>
+                        <div class="image-container"> <img
+                                src="https://lh5.googleusercontent.com/p/AF1QipNWYOXMMnP5ZOXDAA7BbCosDeusI2mvD_7A8Qnj=w141-h141-n-k-no-nu"
+                                alt="Upholstery Cleaning"> </div>
+                    </div>
+                </div>
+                <div class="section">
+                    <h3>Hardwood Floor Cleaning in Rochester, NY</h3> <br>
+                    <div class="content-wrapper">
+                        <div class="content">
+                            <p>Mighty Mac Carpet Cleaning & Restoration is your trusted provider for hardwood floor
+                                cleaning services in Rochester, NY. Our experienced team uses safe, eco-friendly methods
+                                to clean and protect your hardwood floors. We target embedded dirt, dust, and grime that
+                                regular cleaning may miss, enhancing the natural beauty and extending the lifespan of
+                                your floors. Our service includes deep cleaning and polishing to ensure your hardwood
+                                surfaces shine. Count on us to maintain the elegance and cleanliness of your hardwood
+                                floors.</p>
+                        </div>
+                        <div class="image-container"> <img
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCSEiWVRy7WuEl1AmV-KU7IGl9N-8vru56tg&s"
+                                alt="Hardwood Floor Cleaning"> </div>
+                    </div>
+                </div>
+                <div class="section">
+                    <h3>Water Damage Restoration in Rochester, NY</h3> <br>
+                    <div class="content-wrapper">
+                        <div class="content">
+                            <p>Mighty Mac Carpet Cleaning & Restoration offers reliable water damage restoration in
+                                Rochester, NY. Our expert team responds promptly to address damage from leaks, flooding,
+                                or other water-related issues. Specializing in <a
+                                href="https://mightymacrochester.com/water-damage-restoration-rochester-ny/"
+                                style="text-decoration: none; color: #7096c5;">water damage restoration Rochester NY</a>, we
+                                utilize advanced equipment and techniques to remove water, dry affected areas, and
+                                restore your property to its original condition. Our services include thorough damage
+                                assessment, mold prevention, and complete cleanup. Trust us for efficient and
+                                professional restoration that minimizes disruption and restores your peace of mind.</p>
+                        </div>
+                        <div class="image-container"> <img
+                                src="https://i0.wp.com/mightymacrochester.com/wp-content/uploads/brizy/imgs/IMG_0559-547x729x0x160x547x410x1714596832.jpg?w=1200&ssl=1"
+                                alt="Water Damage Restoration"> </div>
+                    </div>
+                </div>
+                <div class="section">
+                    <h3>Water Extraction in Rochester, NY</h3> <br>
+                    <div class="content-wrapper">
+                        <div class="content">
+                            <p>Mighty Mac Carpet Cleaning & Restoration offers rapid and effective water extraction
+                                services in Rochester, NY. Our skilled team utilizes the latest equipment to swiftly and
+                                thoroughly remove water from your property. Fast water extraction is crucial for
+                                preventing further damage and mold growth, and we are dedicated to responding quickly to
+                                emergencies. We ensure all affected areas are fully dried and sanitized, restoring a
+                                safe and dry environment. Depend on us for prompt and efficient water extraction
+                                services to manage your water emergencies.</p>
+                        </div>
+                        <div class="image-container"> <img
+                                src="https://lh3.googleusercontent.com/p/AF1QipMFVD2sKVyljXpFMgENNc2Oq2y5aTWZcUAufCdE=s1360-w1360-h1020"
+                                alt="Water Extraction in Rochester"> </div>
+                    </div>
+                </div>
+                <div class="section">
+                    <h3>Flood Damage Restoration in Rochester, NY</h3> <br>
+                    <div class="content-wrapper">
+                        <div class="content">
+                            <p>Mighty Mac Carpet Cleaning & Restoration delivers expert flood damage restoration
+                                services in Rochester, NY. Our team quickly tackles flood damage using advanced
+                                techniques to restore your property and prevent future issues. We manage all aspects of
+                                flood restoration, from water extraction to drying, cleaning, and repairing affected
+                                areas. Our goal is to return your home or business to its pre-flood condition as swiftly
+                                and effectively as possible. Rely on us for prompt and reliable flood restoration
+                                services that minimize the impact on your life and deliver excellent results.</p>
+                        </div>
+                        <div class="image-container">
+                            <img src="https://lh3.googleusercontent.com/p/AF1QipNUGb7wWFzCM4non0JJNyL2zRDeZ630zUl27uty=s1360-w1360-h1020"
+                                alt="Flood Damage Restoration in Rochester">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2>Get in Touch</h2>
+                    <div class="google-form">
+                        <iframe
+                            src="https://docs.google.com/forms/d/e/1FAIpQLSeXArCldRUlLbQhkdbLd_3_NuHmeVKNkg8zDChpoyYwju_yGA/viewform?embedded=true"
+                            width="100%" height="2230" frameborder="0" marginheight="0"
+                            marginwidth="0">Loading…</iframe>
+                    </div>
+                </div>
+                <div class="section">
+                    <h2 style="color: #38761D; font-size: 26px;">Looking for Carpet Cleaning Services in Rochester, NY?
+                    </h2> <br>
+                    <div class="content-wrapper">
+                        <div class="content">
+                            <p>For dependable carpet cleaning services in Greece, Henrietta, Webster, Fairport, or
+                                Rochester, NY, Mighty Mac Carpet Cleaning & Restoration is your top choice. Specializing
+                                in <a href="https://sites.google.com/view/mighty-mac-rochester/"
+                                    style="text-decoration: none; color: #7096c5;">Rochester NY carpet cleaning</a>, our
+                                highly trained, insured, and professional team is
+                                committed to delivering exceptional service to both homeowners and businesses in the
+                                area. We take pride in our meticulous attention to detail and outstanding customer care,
+                                ensuring your complete satisfaction.</p>
+
+                            <p>We understand that your home and carpets are valuable investments. With extensive
+                                experience in carpet cleaning, our team utilizes cutting-edge equipment to effectively
+                                remove dirt, stains, and pet odors. Let us restore the beauty of your carpets with our
+                                specialized services. If you need an estimate for carpet or upholstery cleaning, click
+                                below, and we’ll respond promptly.</p>
+
+                        </div>
+                        <div class="image-container">
+                            <img src="https://lh5.googleusercontent.com/p/AF1QipOmK2ggmEtugb6OLAFdVrPafFs2NOx_ZJWpDt7J=w141-h176-n-k-no-nu"
+                                alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- section 6 -->
+            <div class="line"></div>
+            <div class="section">
+                <div class="section">
+                    <div class="google-slides">
+
+                        <h3>Google Slides</h3>
+                        <iframe
+                            src="https://docs.google.com/presentation/d/e/2PACX-1vRkjleAMN-YO_FxtHXdvu2ySRZONwaKwOCG2_zhSkGRId0X774t_Rt-A7AO444Wfr3G6GINWxWBNbh5/embed?start=false&loop=false&delayms=300"
+                            frameborder="0" width="700" height="400"></iframe>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <div class="google-drawing">
+                        <h3>Google Drawings</h3>
+                        <iframe
+                            src="https://docs.google.com/drawings/d/1A1hodWsK3UJYVfLYtSlIF_JLeFV_vU7i1E8RoErUCs0/edit"
+                            alt="Google Drawing"> </iframe>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h3>Google Calendar</h3>
+                    <div class="google-calendar">
+                        <iframe src="https://calendar.google.com/calendar/embed?src=mightymaccarpetcleaning%40gmail.com"
+                            style="border: 0" width="700" height="400" frameborder="0" scrolling="no"></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2 style="color: #38761D; font-size: 26px;">Looking for Expert Carpet Cleaning in Rochester, NY?</h2>
+                <div class="container">
+                    <div class="content">
+                        <p>For reliable carpet cleaning services in Greece, Henrietta, Webster, Fairport, or Rochester,
+                            NY, Mighty Mac Carpet Cleaning & Restoration stands out as your top choice. Our highly
+                            trained, insured, and professional team is dedicated to providing exceptional service to
+                            both homeowners and businesses in the region. We pride ourselves on meticulous attention to
+                            detail and outstanding customer care, ensuring your complete satisfaction.</p>
+                        <p>Understanding the importance of your home and carpets as valuable investments, we use
+                            state-of-the-art equipment and techniques to effectively remove dirt, stains, and pet odors.
+                            Let us revitalize your carpets with our expert services. Need an estimate for carpet or
+                            upholstery cleaning? Click below, and we’ll respond promptly.</p>
+
+                    </div>
+                    <div class="youtube-link">
+                        <iframe width="340" height="360"
+                            src="https://www.youtube.com/embed/lj-6vfbomNw?si=hp1TSNUbDYE1Sm76"
+                            title="Carpet cleaning | Mighty Mac Carpet Cleaning & Restoration | Call +1 (585) 514-5150"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="line"></div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="section">
+                <h2>Google Docs</h2>
+                <div class="google-docs">
+
+                    <iframe
+                        src="https://docs.google.com/document/d/e/2PACX-1vQcUm4PDZXWn7xXtE2vzYqU2IflsV4gP6rmy7L_WC-0jhVALoTj8hZ6uTw7Xwoy6qD0SVGegZShej92/pub?embedded=true"></iframe>
+                </div>
+            </div>
+            <div class="line"></div>
+
+
+            <div class="section">
+                <h2 style="color: #38761D; font-size: 26px;">Why Choose Mighty Mac Carpet Cleaning & Restoration?</h2>
+                <div class="container">
+                    <div class="content">
+                        <p>At Mighty Mac Carpet Cleaning & Restoration, we set the standard for superior carpet cleaning
+                            in Rochester. Choosing the right professionals is crucial for maintaining your carpets, and
+                            our experienced, skilled team delivers outstanding results while protecting your carpets and
+                            floors. With Mighty Mac, you can trust that your home will be revitalized and refreshed
+                            through our thorough cleaning process.</p>
+                        <p>Our carpet cleaning service in Rochester, NY, is focused on achieving complete customer
+                            satisfaction with our detailed, multi-step approach. We use only high-quality, safe cleaning
+                            products and advanced equipment to ensure exceptional results. Your satisfaction is our top
+                            priority—if you’re not fully satisfied with our work, we will return to re-clean at no
+                            additional charge. If you’re still not happy, we’ll issue a full refund. With Mighty Mac,
+                            your carpets are always in expert, reliable hands.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- <div class="section find-us-online">
+            <h2 style="text-align: center; color: #38761D; font-size: 30px;">Find Us online at</h2>
+            <ul class="online-links">
+                <li><a href="https://617bostonmover.wixsite.com/home">https://617bostonmover.wixsite.com/home</a></li>
+                <li><a href="https://617bostonmovers.godaddysites.com/">https://617bostonmovers.godaddysites.com/</a>
+                </li>
+                <li><a href="https://617-boston-movers.weebly.com/">https://617-boston-movers.weebly.com/</a></li>
+                <li><a href="https://617-boston-movers.wordpress.com/">https://617-boston-movers.wordpress.com/</a></li>
+                <li><a
+                        href="https://617-boston-movers.mystrikingly.com/">https://617-boston-movers.mystrikingly.com/</a>
+                </li>
+                <li><a href="https://66a9d00a4366e.site123.me/">https://66a9d00a4366e.site123.me/</a></li>
+                <li><a href="https://617-boston-movers.jimdosite.com/">https://617-boston-movers.jimdosite.com/</a></li>
+                <li><a href="https://pfup-mcmuocts-toiall.yolasite.com/">https://pfup-mcmuocts-toiall.yolasite.com/</a>
+                </li>
+                <li><a
+                        href="https://617-boston-movers-46946756.hubspotpagebuilder.com/en-us/home">https://617-boston-movers-46946756.hubspotpagebuilder.com/en-us/home</a>
+                </li>
+
+            </ul>
+        </div> -->
+        <br>
+        <br>
+        <section id="Call">
+            <div class="section">
+                <h2 style="text-align: center; color: #38761D; font-size: 30px;">Business Details</h2>
+                <ul class="online-links">
+
+                    <p style="margin-left: 10%; text-align: left;">
+                        <b>Name:</b> Mighty Mac Carpet Cleaning & Restoration <br>
+                        <b>Address:</b> 95 Mt Read Blvd ste 105b, Rochester, NY 14611, United States <br>
+                        <b>Phone:</b> +1 (585) 514-5150<br>
+                        <b>Email:</b> mightymacrochester@gmail.com
+                </ul>
+                <br>
+                <h2 style="text-align: center; color: #38761D; font-size: 26px;"> Find Us on Google</h2><br>
+                <div class="container">
+                    <div class="google-maps-container">
+                        <div class="google-maps">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d46571.524330180386!2d-77.66090500000001!3d43.152403!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d6b13e6a31aa75%3A0x762a6ab328b19e00!2sMighty%20Mac%20Carpet%20Cleaning%20%26%20Restoration!5e0!3m2!1sen!2sus!4v1723919896046!5m2!1sen!2sus"
+                                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <div class="google-maps">
+                            <iframe
+                                src="https://www.google.com/maps/d/embed?mid=1fPP_TUdaMnpUdLCYptqJeV7mSmrOJm4&ehbc=2E312F"
+                                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+            </div>
+
+            <!-- <div class="section"> -->
+
+
+
+            <footer>
+                <div class="footerContainer">
+                    <div class="socialIcons">
+
+                        <a href="https://www.facebook.com/MightyMacRochester/
+                        "><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/mightymacrochester/"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/company/mightymacrochester/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a
+                            href="https://www.google.com/maps/d/u/0/viewer?mid=1fPP_TUdaMnpUdLCYptqJeV7mSmrOJm4&ll=43.152403199999995%2C-77.66090489999998&z=17"><i
+                                class="fa-brands fa-google-plus"></i></a>
+
+                    </div>
+
+                </div>
+                <p>Copyright &copy;2024 | Mighty Mac Carpet Cleaning & Restoration, 95 Mt Read Blvd ste 105b, Rochester,
+                    NY 14611, United States
+                    +1 (585) 514-5150</p>
+                </div>
+            </footer>
+
+            <script>
+                document.addEventListener('DOMContentLoaded', () => {
+                    const mobileMenuIcon = document.querySelector('.mobile-menu-icon');
+                    const dropdownContent = document.querySelector('.dropdown-content');
+
+                    mobileMenuIcon.addEventListener('click', () => {
+                        dropdownContent.classList.toggle('show');
+                    });
+
+                    // Close the dropdown when clicking outside
+                    window.addEventListener('click', (e) => {
+                        if (!e.target.matches('.mobile-menu-icon') && !e.target.matches('.fa-bars')) {
+                            dropdownContent.classList.remove('show');
+                        }
+                    });
+                });
+
+                window.addEventListener('scroll', function () {
+                    var header = document.getElementById('header');
+                    header.classList.toggle('scrolled', window.pageYOffset > 0);
+                });
+            </script>
+
+</body>
+
+</html>
